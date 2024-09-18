@@ -1,0 +1,88 @@
+@import 'normalize.scss';
+
+// === Mixins === 
+@mixin font-Roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+@mixin font-Lato {
+    font-family: "Lato", sans-serif;
+}
+// === / Mixins === 
+
+// === Variables ===
+$color-white: #ffffff;
+// === / Variables ===
+
+//=== Common ===
+body {
+    @include font-Roboto;
+}
+
+.section-outer {}
+.section-inner {
+    width: 1180px;
+    margin: 0 auto;
+}
+// === / Common ===
+
+// === header ===
+.section-header {
+    color: #000000;
+    background: url('../img/Rectangle 3.png') 
+    background-size: cover:
+    position: relative:
+ 
+    
+    .section-inner {
+        height: 100vh;
+        position: relative;
+        z-index: 10;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(213,32,71, .8) ;
+    }
+
+    &-logo {}
+    &-content {}
+    &-wraper {
+        &_titel {}
+        &_subtitel {}
+        &_form {
+            &-button {}
+        }
+    }
+}
+// === / header ===
+
+// === Photo ===
+.section-Photo {}
+// === / Photo ===
+
+// === Possibilities ===
+.section-Possibilities {}
+// === / Possibilities ===
+
+// === Plans ===
+.section-Plans {}
+// === / Plans ===
+
+// === Free ===
+.section-Free {}
+// === / Free ===
+
+// === Registration ===
+.section-Registration {}
+// === / Registration ===
+
+// === Footer ===
+.section-Footer {}
+// === / Footer ===
